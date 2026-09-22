@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ArgenBooking</string>
+    <string name="loft_title">Palermo Luxury Loft</string>
+    <string name="loft_breadcrumbs">INICIO / PALERMO LUXURY LOFT</string>
+    <string name="loft_descrp">Palermo es el barrio más grande, verde y visitado de la Ciudad Autónoma de Buenos Aires. Un gran espacio con lagos, palmeras y el famoso Rosedal. El Jardín Botánico, el Planetario Galileo Galilei y el Ecoparque. Un lugar ideal para correr, andar en bicicleta y descansar al aire libre.</string>
+    <string name="loft_specs_bed">🛏️ 1 Cama Grande</string>
+    <string name="loft_specs_wifi">📶 Wi-Fi</string>
+    <string name="loft_specs_cond">❄️ Aire Acondicionado</string>
+    <string name="loft_specs_pers">👥  3 Personas</string>
+    <string name="loft_description">Hermoso departamento de lujo ubicado en el corazón de Palermo. Ideal para estadías temporales con total confort.</string>
+    <string name="btn_reserve">Reservar Ahora</string>
+    <string name="booking_success">¡RESERVA CONFIRMADA!</string>
+</resources>
