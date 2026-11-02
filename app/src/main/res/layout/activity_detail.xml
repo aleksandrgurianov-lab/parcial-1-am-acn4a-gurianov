@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://adnroid.com"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark"
+    >
+
+    <ScrollView
+        android:id="@+id/loftScroll"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/p_0"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/p_0"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/pt_default"
+                android:paddingBottom="@dimen/p_sides"
+                android:paddingLeft="@dimen/p_sides"
+                android:paddingRight="@dimen/p_sides"
+                android:background="@color/card_bg"
+                >
+                <ImageView
+                    android:id="@+id/imgLogo"
+                    android:layout_width="@dimen/logo_sizes"
+                    android:layout_height="@dimen/logo_sizes"
+                    android:src="@drawable/logo"
+                    android:contentDescription="@string/logo_desc"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtBreadcrumbs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/m_32"
+                android:paddingLeft="@dimen/p_sides"
+                android:paddingRight="@dimen/p_sides"
+                android:text="@string/loft_breadcrumbs"
+                android:textColor="@color/text_light"
+                android:textSize="@dimen/text_size_body" />
+
+            <ImageView
+                android:id="@+id/imgLoft"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_image_height"
+                android:layout_marginTop="@dimen/m_32"
+                android:scaleType="centerCrop"
+                android:src="@drawable/main_image_1"
+                android:contentDescription="@string/img_loft_desc"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/loft_descrp"
+                android:textColor="@color/text_gray"
+                android:textSize="@dimen/text_size_body"
+                android:layout_marginTop="@dimen/pt_default"
+                android:paddingLeft="@dimen/p_sides"
+                android:paddingRight="@dimen/p_sides" />
+
+
+            <TextView
+                android:id="@+id/txtHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/m_18"
+                android:text="@string/dentro_header_title"
+                android:textColor="@color/text_light"
+                android:textSize="@dimen/text_size_title"
+                android:paddingLeft="@dimen/p_sides"
+                android:paddingRight="@dimen/p_sides"
+                android:alpha="0.6"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/p_sides"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/loft_specs_bed"
+                    android:textColor="@color/text_gray"
+                    android:textSize="@dimen/text_size_body"
+                    android:paddingLeft="@dimen/p_sides"
+                    android:paddingRight="@dimen/p_sides"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/loft_specs_cond"
+                    android:textColor="@color/text_gray"
+                    android:textSize="@dimen/text_size_body"
+                    android:paddingLeft="@dimen/p_sides"
+                    android:paddingRight="@dimen/p_sides"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/p_sides"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/loft_specs_wifi"
+                    android:textColor="@color/text_gray"
+                    android:textSize="@dimen/text_size_body"
+                    android:paddingLeft="@dimen/p_sides"
+                    android:paddingRight="@dimen/p_sides"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/loft_specs_pers"
+                    android:textColor="@color/text_gray"
+                    android:textSize="@dimen/text_size_body"
+                    android:paddingLeft="@dimen/p_sides"
+                    android:paddingRight="@dimen/p_sides"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/p_sides"
+                android:paddingBottom="@dimen/p_sides"
+                android:paddingLeft="@dimen/p_sides"
+                android:paddingRight="@dimen/p_sides"
+                android:background="@color/card_bg"
+                android:layout_marginTop="@dimen/m_32"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/habitacion_precio"
+                        android:textColor="@color/text_light"
+                        android:textSize="@dimen/text_size_title"
+                        android:alpha="1" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/por_noche"
+                        android:textColor="@color/text_light"
+                        android:textSize="@dimen/text_size_small"
+                        android:alpha="0.6" />
+                </LinearLayout>
+                <View
+                    android:layout_width="@dimen/layout_width"
+                    android:layout_height="@dimen/h_1"
+                    android:layout_weight="1" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+
+                    >
+                    <ImageView
+                        android:id="@+id/imgAdmin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/p_sides"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ava_1"
+                        android:contentDescription="@string/adm_desc"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="@dimen/m_8"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/manager"
+                            android:textColor="@color/text_light"
+                            android:textSize="@dimen/text_size_subtitle"
+                            android:alpha="1" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/role"
+                            android:textColor="@color/text_light"
+                            android:textSize="@dimen/text_size_small"
+                            android:alpha="0.6"
+                            android:layout_marginTop="@dimen/m_4"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/dynamicInvoiceContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginEnd="@dimen/p_sides"
+                android:layout_marginStart="@dimen/p_sides"
+                android:layout_marginTop="@dimen/p_sides" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/pt_default"
+                android:paddingBottom="@dimen/p_sides"
+                android:paddingLeft="@dimen/p_sides"
+                android:paddingRight="@dimen/p_sides"
+                android:baselineAligned="false"
+                >
+                <LinearLayout
+                    android:layout_width="@dimen/layout_width"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="@dimen/m_8">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fecha_de_entrada"
+                        android:textColor="@color/text_light"
+                        android:textSize="@dimen/text_size_small"
+                        android:alpha="0.6" />
+
+                    <EditText
+                        android:id="@+id/inputCheckIn"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/input_height"
+                        android:layout_marginTop="@dimen/m_4"
+                        android:hint="@string/input_checkin"
+                        android:textColorHint="#4DFFFFFF"
+                        android:textColor="@color/text_light"
+                        android:backgroundTint="@color/orange_premium"
+                        android:focusable="false"
+                        android:clickable="true"
+                        android:textSize="@dimen/text_size_body"
+                        android:inputType="none"
+                        android:cursorVisible="false"
+                        android:importantForAutofill="no"
+                        tools:ignore="KeyboardInaccessibleWidget"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="@dimen/layout_width"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="@dimen/m_8">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cantidad_de_noches"
+                        android:textColor="@color/text_light"
+                        android:textSize="@dimen/text_size_small"
+                        android:alpha="0.6" />
+
+                    <EditText
+                        android:id="@+id/inputNights"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/input_height"
+                        android:layout_marginTop="@dimen/m_4"
+                        android:hint="@string/noche_def"
+                        android:textColorHint="#4DFFFFFF"
+                        android:textColor="@color/text_light"
+                        android:backgroundTint="@color/orange_premium"
+                        android:inputType="number"
+                        android:textSize="@dimen/text_size_body"
+                        android:importantForAutofill="no"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/p_0"
+                android:paddingBottom="@dimen/p_sides"
+                android:paddingLeft="@dimen/p_sides"
+                android:paddingRight="@dimen/p_sides"
+                android:baselineAligned="false"
+                >
+
+                <LinearLayout
+                    android:layout_width="@dimen/layout_width"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="@dimen/m_8"
+                    >
+                    <TextView
+                        android:id="@+id/lblCalculationDetails"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/total_text"
+                        android:textColor="@color/text_light"
+                        android:textSize="@dimen/text_size_small"
+                        android:alpha="0.6" />
+                    <TextView
+                        android:id="@+id/lblTotalResult"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/total"
+                        android:textColor="@color/text_light"
+                        android:textSize="@dimen/text_size_subtitle_2"
+                        android:textStyle="bold"
+                        android:layout_marginTop="@dimen/m_4"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/layout_width"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="@dimen/m_8"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/las_fechas"
+                        android:textColor="@color/text_light"
+                        android:textSize="@dimen/text_size_small"
+                        android:alpha="0.5" />
+                    <View
+                        android:layout_width="@dimen/p_0"
+                        android:layout_height="@dimen/h_1"
+                        android:layout_weight="1" />
+                    <TextView
+                        android:id="@+id/lblStatus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/habitacion_estado"
+                        android:textColor="@color/orange_premium"
+                        android:textSize="@dimen/text_size_subtitle_2"
+                        android:textStyle="bold"
+                        android:layout_marginTop="@dimen/m_4" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnReserve"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_height"
+                android:layout_marginTop="@dimen/m_18"
+                android:layout_marginBottom="@dimen/m_80"
+                android:text="@string/btn_reserve"
+                android:backgroundTint="@color/orange_premium"
+                android:textColor="@color/text_light"
+                android:textSize="@dimen/text_size_subtitle"
+                android:textStyle="bold"
+                app:cornerRadius="@dimen/p_sides"
+                android:layout_marginStart="@dimen/p_sides"
+                android:layout_marginEnd="@dimen/p_sides"
+                />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

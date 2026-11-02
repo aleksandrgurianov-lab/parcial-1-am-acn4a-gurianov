@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- (Margins & Paddings) -->
+    <dimen name="pt_default">24dp</dimen>
+    <dimen name="p_sides">12dp</dimen>
+    <dimen name="p_0">0dp</dimen>
+    <dimen name="m_4">4dp</dimen>
+    <dimen name="m_8">8dp</dimen>
+    <dimen name="m_18">18dp</dimen>
+    <dimen name="m_32">32dp</dimen>
+    <dimen name="m_80">80dp</dimen>
+    <!-- fonts -->
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_body">14sp</dimen>
+    <dimen name="text_size_subtitle">18sp</dimen>
+    <dimen name="text_size_title">36sp</dimen>
+    <dimen name="text_size_subtitle_2">20sp</dimen>
+    <!-- sizes -->
+    <dimen name="input_height">48dp</dimen>
+    <dimen name="layout_width">240dp</dimen>
+    <dimen name="btn_height">55dp</dimen>
+    <dimen name="h_1">1dp</dimen>
+    <dimen name="main_image_height">220dp</dimen>
+    <dimen name="logo_sizes">55dp</dimen>
+</resources>
